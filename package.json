@@ -1,0 +1,16 @@
+{
+  "name": "kerala-hss-api",
+  "version": "1.0.0",
+  "description": "an open source API which will give all the data of all HSS in Kerala",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Karthik Dileep",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2"
+  }
+}
