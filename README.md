@@ -11,3 +11,13 @@ As time goes we'll add more schools and more functionalities.!
 - You can point out issues, you can give feedbacks, suggestions, anything.
 
 Happy Coding ❤
+
+# Documentation
+- **To get all schools in a particular district you can do**
+```
+/api/v1/schools/{your district}
+```
+- **To get all schools in a particular pincode of a district**
+```
+/api/v1/schools/{your district}/{pincode}
+```
