@@ -20,6 +20,8 @@ mongoose
   .then((val) => console.log("connected to database!"))
   .catch((err) => console.log(err));
 
-app.get("/api/v1/schools/:district/all", schoolController.getSchoolByDistrict);
+//* get all schools of the corresponding district
+app.get("/api/v1/schools/:district", schoolController.getSchoolByDistrict);
 
+//* get all schools that is in a corresponding pincode of a village
 app.get("/api/v1/schools/:district/:pincode", schoolController.getSchoolByPin);

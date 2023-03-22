@@ -6,7 +6,12 @@ const getSchoolByDistrict = (req, res) => {
   School.find({
     district: district,
   })
-    .then((result) => res.status(200).json(result))
+    .then((result) =>
+      res.status(200).json({
+        statusCode: 200,
+        data: result,
+      })
+    )
     .catch((err) => console.log(err));
 };
 
@@ -18,7 +23,12 @@ const getSchoolByPin = (req, res) => {
     district: district,
     pincode: pincode,
   })
-    .then((result) => res.status(200).json(result))
+    .then((result) =>
+      res.status(200).json({
+        statusCode: 200,
+        data: result,
+      })
+    )
     .catch((err) => console.log(err));
 };
 
