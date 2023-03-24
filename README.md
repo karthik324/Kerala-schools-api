@@ -16,9 +16,9 @@ Happy Coding ❤
 # Documentation
 - **To get all schools in a particular district you can do**
 ```
-/api/v1/schools/{your district}
+https://kerala-schools.onrender.com/api/v1/schools/{your district}
 ```
 - **To get all schools in a particular pincode of a district**
 ```
-/api/v1/schools/{your district}/{pincode}
+https://kerala-schools.onrender.com/api/v1/schools/{your district}/{pincode}
 ```
