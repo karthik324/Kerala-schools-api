@@ -4,7 +4,8 @@
   "description": "an open source API which will give all the data of all HSS in Kerala",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Karthik Dileep",
   "license": "ISC",
