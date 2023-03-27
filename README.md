@@ -22,3 +22,11 @@ https://kerala-schools.onrender.com/api/v1/schools/{your district}
 ```
 https://kerala-schools.onrender.com/api/v1/schools/{your district}/{pincode}
 ```
+
+
+### Condribution no 1
+- Added python code to web-scarp  data from [Kerala HSE website](www.hscap.kerala.gov.in)
+- 2000+ Data is cleaned and saved into Pandas Data Frame
+- Load entire Dataset into School-data-kerala.json file
+
+- Contributed By [Renjith VS](https://github.com/RENJITHVS/)
