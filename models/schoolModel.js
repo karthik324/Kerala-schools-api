@@ -31,11 +31,9 @@ const schoolSchema = new mongoose.Schema({
   },
   educationalDistrict: {
     type: String,
-    required: [true, "A school must specify it's educational district"],
   },
   assemblyConstituancy: {
     type: String,
-    required: [true, "A school must specify it's assembly constituancy"],
   },
   district: {
     type: String,
