@@ -1,8 +1,6 @@
 # Kerala-schools-api
 
-A simple API which contains all the basic data about schools in Kerala. Initially it'll be about higher secondary schools from Kasargod to Trivandrum.
-As time goes we'll add more schools and more functionalities.!
-- Schools data till added - Kasargod - (Higher Secondary Schools)
+A simple API which contains all the basic data of schools in Kerala. The API contains over **2000** data of schools..!
 
 ## Open Source
 - If you want to contribute, create a branch and open a pull request
@@ -14,13 +12,29 @@ As time goes we'll add more schools and more functionalities.!
 Happy Coding ❤
 
 # Documentation
-- **To get all schools in a particular district you can do**
+- **To get all schools and their data**
+```
+https://kerala-schools.onrender.com/api/v1/schools
+```
+- **To get all schools in a district**
 ```
 https://kerala-schools.onrender.com/api/v1/schools/{your district}
 ```
-- **To get all schools in a particular pincode of a district**
+- **To get all school's details by the school code**
 ```
-https://kerala-schools.onrender.com/api/v1/schools/{your district}/{pincode}
+https://kerala-schools.onrender.com/api/v1/schools/code/{schoolCode}
+```
+- **To get all school by its type (Government, aided, unaided, etc)**
+```
+https://kerala-schools.onrender.com/api/v1/schools/type/{schoolType}
+```
+- **To get the details of a school**
+```
+https://kerala-schools.onrender.com/api/v1/schools/find/{school}
+```
+- **To get a school by a place**
+```
+https://kerala-schools.onrender.com/api/v1/schools/place/{place}
 ```
 
 
