@@ -20,8 +20,20 @@ mongoose
   .then((val) => console.log("connected to database!"))
   .catch((err) => console.log(err));
 
+//*get all data of schools
+app.get("/api/v1/schools", schoolController.getAllSchools);
+
 //* get all schools of the corresponding district
 app.get("/api/v1/schools/:district", schoolController.getSchoolByDistrict);
 
-//* get all schools that is in a corresponding pincode of a village
-app.get("/api/v1/schools/:district/:pincode", schoolController.getSchoolByPin);
+//* get a school's details by the school code
+app.get("/api/v1/schools/code/:schoolCode", schoolController.getSchoolByCode);
+
+//* get a school by its type
+app.get("/api/v1/schools/type/:schoolType", schoolController.getSchoolByType);
+
+///* get the details of a school
+app.get("/api/v1/schools/find/:school", schoolController.getSchoolsByName);
+
+//* get a school by a place
+app.get("/api/v1/schools/place/:place", schoolController.getSchoolsByPlace);
